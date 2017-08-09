@@ -33,8 +33,15 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         // Dispose of any resources that can be recreated.
     }
     
-    // Actions
     
+    
+    // Actions
+    @IBAction func text1Action(_ sender: Any) {
+        text2.text = "2"
+    }
+
+    @IBAction func text2Action(_ sender: Any) {
+    }
     
     // Manditory functions for pickerview protocol and delegate
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
@@ -53,7 +60,6 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         
 //        stateBtn.setTitle(states[row], for: UIControlState.normal)
 //        state = states[row]
-What
     }
 
 
